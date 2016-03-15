@@ -1,0 +1,46 @@
+.gradle*
+rebel.xml
+build/
+
+# Eclipse
+*.launch
+.project
+.metadata
+.springBeans
+.classpath
+.settings/
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+
+# NodeJS
+.nodejs/
+node_modules/
+npm-debug.log
+
+# Bower
+/mytimetable-web-war/bower.json
+/mytimetable-web-war/bower.state.json
+/**/bower_components/
+
+# Compiled SASS
+/*/src/main/resources/assets/ccss/
+/mytimetable-web-mobile/src/main/resources/assets/m/resources/ccss/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# API Secrets
+*.p12
+client_secrets.json

@@ -1,0 +1,38 @@
+{
+  "name": "eslint-config-eveoh",
+  "version": "1.0.0",
+  "description": "Eveoh's ESLint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eveoh/eslint-config-eveoh.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Marco Krikke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eveoh/eslint-config-eveoh/issues"
+  },
+  "homepage": "https://github.com/eveoh/eslint-config-eveoh#readme",
+  "devDependencies": {
+    "eslint": "^2.4.0"
+  },
+  "peerDependencies": {
+    "eslint": "^2.4.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "eslint:recommended",
+      "eveoh"
+    ],
+    "env": {
+      "node": true
+    }
+  }
+}
