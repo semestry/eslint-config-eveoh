@@ -1,10 +1,12 @@
 {
-  "name": "eslint-config-eveoh",
-  "version": "1.0.0",
+  "name": "@eveoh/eslint-config",
+  "version": "2.0.0",
   "description": "Eveoh's ESLint configuration",
   "main": "index.js",
   "scripts": {
-    "test": "eslint ."
+    "lint": "eslint --report-unused-disable-directives .",
+    "test": "npm run lint",
+    "prepublishOnly": "safe-publish-latest"
   },
   "repository": {
     "type": "git",
@@ -21,18 +23,13 @@
   },
   "homepage": "https://github.com/eveoh/eslint-config-eveoh#readme",
   "devDependencies": {
-    "eslint": "^2.4.0"
+    "eslint": "^6.0.1",
+    "safe-publish-latest": "^1.1.2"
   },
   "peerDependencies": {
-    "eslint": "^2.4.0"
+    "eslint": "^6.0.1"
   },
-  "eslintConfig": {
-    "extends": [
-      "eslint:recommended",
-      "eveoh"
-    ],
-    "env": {
-      "node": true
-    }
+  "engines": {
+    "node": ">= 4"
   }
 }
