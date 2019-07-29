@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/eveoh/eslint-config-eveoh#readme",
   "devDependencies": {
-    "eslint": "^6.0.1",
+    "eslint": "^6.1.0",
     "safe-publish-latest": "^1.1.2"
   },
   "peerDependencies": {
