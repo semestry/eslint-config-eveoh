@@ -1,6 +1,6 @@
 {
   "name": "@eveoh/eslint-config",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Eveoh's ESLint configuration",
   "main": "index.js",
   "scripts": {
