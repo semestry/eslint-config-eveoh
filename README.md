@@ -2,7 +2,7 @@
 
 This package provides Eveoh's .eslintrc as an extensible shared config.
 
-[![npm version](https://badge.fury.io/js/eslint-config-eveoh.svg)](http://badge.fury.io/js/eslint-config-eveoh)
+[![npm version](https://badge.fury.io/js/%40eveoh%2Feslint-config.svg)](https://badge.fury.io/js/%40eveoh%2Feslint-config)
 [![Build Status](https://travis-ci.org/eveoh/eslint-config-eveoh.svg?branch=master)](https://travis-ci.org/eveoh/eslint-config-eveoh)
 [![Dependency Status](https://david-dm.org/eveoh/eslint-config-eveoh.svg)](https://david-dm.org/eveoh/eslint-config-eveoh)
 [![devDependency Status](https://david-dm.org/eveoh/eslint-config-eveoh/dev-status.svg)](https://david-dm.org/eveoh/eslint-config-eveoh#info=devDependencies)
