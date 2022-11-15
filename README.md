@@ -18,3 +18,9 @@ rules.
 ## Testing
 
 Lint this module with itself using `npm test`.
+
+## Releasing
+
+1. Log in using `npm login`
+2. Release package: `npm publish --access public`
+
