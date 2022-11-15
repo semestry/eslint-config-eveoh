@@ -23,13 +23,13 @@
   },
   "homepage": "https://github.com/eveoh/eslint-config-eveoh#readme",
   "devDependencies": {
-    "eslint": "^6.5.1",
-    "safe-publish-latest": "^1.1.3"
+    "eslint": "^8.27.0",
+    "safe-publish-latest": "^2.0.0"
   },
   "peerDependencies": {
-    "eslint": "^6.0.1"
+    "eslint": "^8.27.0"
   },
   "engines": {
-    "node": ">= 4"
+    "node": ">= 14"
   }
 }
