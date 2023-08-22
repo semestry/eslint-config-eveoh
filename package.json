@@ -1,6 +1,6 @@
 {
   "name": "@eveoh/eslint-config",
-  "version": "3.0.0",
+  "version": "3.1.0",
   "description": "Eveoh's ESLint configuration",
   "main": "index.js",
   "scripts": {
@@ -23,13 +23,13 @@
   },
   "homepage": "https://github.com/eveoh/eslint-config-eveoh#readme",
   "devDependencies": {
-    "eslint": "^8.27.0",
+    "eslint": "^8.47.0",
     "safe-publish-latest": "^2.0.0"
   },
   "peerDependencies": {
-    "eslint": "^8.27.0"
+    "eslint": "^8.47.0"
   },
   "engines": {
-    "node": ">= 14"
+    "node": ">= 18"
   }
 }
